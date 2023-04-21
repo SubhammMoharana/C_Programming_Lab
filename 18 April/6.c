@@ -1,3 +1,6 @@
+/* Replace a character in string with another one.
+input : I am a computer engineer. Replace 'e' with 'E'
+output : I am a computEr EnginEEr.*/
 #include <stdio.h>
 #include <string.h>
 
