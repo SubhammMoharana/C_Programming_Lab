@@ -1,10 +1,44 @@
-// Declare a string and initialise as "Computer Programming Lab". Print the full string and also print the first 8 letters.
+// Enter an array of 10 elements and search one element using BINARY search
 #include <stdio.h>
+#include <string.h>
 int main()
 {
-	char str[20] = "Computer Programming";
-	printf("Priniting the string name: %s\n", str);
-	printf("First 8 element is %.8s\n", str);
+
+	int n, arr[10], i, key, first, last, middle;
+	printf("Enter number of element");
+	scanf("%d", &n);
+	// enter
+	for (i = 0; i < n; i++)
+	{
+		scanf("%d", &arr[i]);
+	}
+	printf("Enter the value");
+	scanf("%d", &key);
+
+	first = 0;
+	last = n - 1;
+	middle = (first + last) / 2;
+	while (first <= last)
+	{
+		if (arr[middle] < key)
+		{
+			first = middle + 1;
+		}
+		else if (arr[middle] == key)
+		{
+			printf("%d found at location %d", key, middle + 1);
+			break;
+		}
+		else
+		{
+			last = middle - 1;
+			middle = (first + last) / 2;
+		}
+		if (first > last)
+		{
+			printf("Not found");
+		}
+	}
 
 	return 0;
 }
