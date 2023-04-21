@@ -1,8 +1,9 @@
+//Enter an array of 10 elements and search one element using BINARY search
 #include<stdio.h>
 #include<string.h>
 int main(){
 
-	int n,arr[100],i,key,first,last,middle;
+	int n,arr[10],i,key,first,last,middle;
 	printf("Enter number of element");
 	scanf("%d",&n);
 	//enter
