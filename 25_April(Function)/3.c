@@ -1,3 +1,4 @@
+//write a function to print the max value
 #include<stdio.h>
 void swap(int num1, int num2);
 int main()

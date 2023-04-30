@@ -24,8 +24,3 @@ int max(int num1,int num2)
 
 
 
-//write a program input element to an array and display the second biggest element
-//write a program to swap the second biggest and second smallest element in a array
-//write a program initialize your roll no. to an array
-//initialize an array with your roll number and roate the values (1 position)
-

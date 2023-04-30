@@ -1,3 +1,4 @@
+//write a fucntion to find factorial of number 
 #include<stdio.h>
 int fact(int num);
 int main(){
