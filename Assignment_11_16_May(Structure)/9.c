@@ -1,5 +1,5 @@
 //adding two structure
-//inch-feet sum
+//inch-feet sum.
 #include<stdio.h>
 struct dist{
     int feet;

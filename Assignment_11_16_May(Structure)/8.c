@@ -1,4 +1,4 @@
-//WAP to store one student’s information (i.e. student’s roll no, name, gender, marks etc) of an educational institute and display all the data, using structure
+//WAP to store one students information (i.e. student’s roll no, name, gender, marks etc) of an educational institute and display all the data, using structure
 #include<stdio.h>
 struct Database{
     int roll;

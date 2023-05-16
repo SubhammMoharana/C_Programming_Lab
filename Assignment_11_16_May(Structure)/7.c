@@ -1,5 +1,5 @@
 /*
- WAP to store 3 employees' data such as employee name, gender, designation, department, basic
+WAP to store 3 employees' data such as employee name, gender, designation, department, basic
 pay etc using structures Calculate the gross pay of each
 employees as follows:
 Gross pay=basic pay + HR + DA
