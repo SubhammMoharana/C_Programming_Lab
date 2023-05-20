@@ -1,3 +1,4 @@
+//There are 5 passengers in a train, enter their name, age,  gender and alot seat number ( 1 up number) and print their tickets
 #include <stdio.h>
 // Define a structure for passenger information
 struct Passenger {

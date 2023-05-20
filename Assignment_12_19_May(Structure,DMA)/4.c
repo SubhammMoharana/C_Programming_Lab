@@ -1,3 +1,4 @@
+//Declare , initialize and print array of structure of books
 #include<stdio.h>
 struct books{
     char name[12];

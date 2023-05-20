@@ -1,3 +1,4 @@
+//TAKE USER input , store and display 5 student's information
 #include<stdio.h>
 struct books{
     char name[12];

@@ -1,3 +1,4 @@
+//create an array and allocate memory and print sum of elements
 #include<stdio.h>
 #include<stdlib.h>
 int main()

@@ -1,3 +1,4 @@
+//Add two times using structures like 9 hr 23 m 26 sec + 9 hr 40 min 40 sec
 #include<stdio.h>
 struct time{
     int hour;
